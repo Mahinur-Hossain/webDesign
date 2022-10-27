@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+}
+
+/* common style  start*/
+.container {
+    width: 100%;
+
+}
+
+.container-fluid {
+    width: 70%;
+
+    /* border: 2px solid red; */
+    margin: 0px auto;
+
+}
+
+/* common style  end*/
+
+.nav {
+    height: 40px;
+}
+
+.nav .search-bar {
+    float: left;
+    width: 30%;
+}
+
+.nav .search-bar form {
+    margin: 0;
+    line-height: 2.5;
+}
+
+.nav .search-bar form input {
+    width: 80%;
+    height: 20px;
+    /* padding: 0px 0px; */
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    /* box-sizing: border-box; */
+}
+
+
+
+.nav .search-bar form button {
+    width: 20%;
+    border: 0;
+    /* margin: 0; */
+    margin-left: -5px;
+    border-radius: 0px 25px 25px 0px;
+    height: 20px;
+    line-height: 1;
+    background: green;
+    text-align: center;
+    color: #fff;
+}
+
+.nav .navMenu {
+    float: right;
+    width: 70%;
+    line-height: 2.5;
+}
+
+.nav .navMenu ul {
+    margin: 0;
+    text-align: right;
+}
+
+.nav .navMenu ul li {
+    list-style: none;
+    display: inline;
+}
+
+.nav .navMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 8px;
+    /* border: 1px solid red; */
+}
+
+.header {
+    height: 150px;
+}
+
+.header .logo {
+    float: left;
+    width: 50%;
+}
+
+.header .logo h1 {
+    margin-top: 55px;
+    color: #fff;
+}
+
+.header .logoSide {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.header .logoSide p {
+    margin-top: 45px;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+
+.main {
+    height: 400px;
+}
+
+.main .article {
+    width: 70%;
+    float: left;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.main .aside {
+    width: 30%;
+    float: left;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.main .container-fluid.right{
+	width:30%;
+	float:left;
+	height:100%
+}
+.main .container-fluid.right ul{
+	text-align:right;
+	list-style-type:none;
+	color:black
+}
+.main .container-fluid.right ul li{
+	padding:9px 0px;
+}
+.main .container-fluid.right ul li a{
+	text-decoration:none;
+	color:blue;
+	font-weight:700
+}
+.footer{
+	background:#2e2e2e;
+	color:#bfbfbf;
+	height:250px
+}
+.footer .container-fluid .left{
+	width:50%;
+	float:left;
+	padding:10px;
+	text-align:justify
+}
+.footer .container-fluid .down{
+	width:100%;
+	float:left;
+	padding:10px;
+	text-align:center
+}
+.footer .container-fluid .down span{
+	color:white
+}
